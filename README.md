@@ -25,8 +25,7 @@
 ### Prerequisites
 
 - `libpcap` development libraries must be installed on both the client and server machines.
-  - **Debian/Ubuntu:** `sudo apt-get install libpcap-dev`
-  - **RHEL/CentOS/Fedora:** `sudo yum install libpcap-devel`
+  - **Linux:** No prerequisites - binaries are statically linked.
   - **macOS:** Comes pre-installed with Xcode Command Line Tools. Install with `xcode-select --install`
   - **Windows:** Install Npcap. Download from [npcap.com](https://npcap.com/).
 
